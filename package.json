@@ -1,0 +1,36 @@
+{
+  "name": "baileys-caller",
+  "version": "0.1.0",
+  "description": "WhatsApp voice calling SDK for Node.js. Built on Baileys, audio via WhatsApp Web's WASM stack.",
+  "author": "ShellTear",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.mjs",
+  "files": [
+    "dist",
+    "assets/wasm/whatsapp.wasm",
+    "assets/wasm/loader.js",
+    "assets/wasm/worker-modules.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "fetch-wasm": "node scripts/fetch-wasm-resources.mjs"
+  },
+  "dependencies": {
+    "@roamhq/wrtc": "^0.10.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "whatsapp",
+    "voip",
+    "voice-call",
+    "baileys",
+    "wasm",
+    "rtp",
+    "opus"
+  ],
+  "license": "MIT"
+}
