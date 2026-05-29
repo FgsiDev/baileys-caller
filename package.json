@@ -7,7 +7,7 @@
   "type": "module",
   "main": "./src/index.js",
   "files": [
-    "dist",
+    "src",
     "assets/wasm/whatsapp.wasm",
     "assets/wasm/loader.js",
     "assets/wasm/worker-modules.js",
