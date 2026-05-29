@@ -5,7 +5,7 @@
   "author": "ShellTear",
   "private": true,
   "type": "module",
-  "main": "./src/index.mjs",
+  "main": "./src/index.js",
   "files": [
     "dist",
     "assets/wasm/whatsapp.wasm",
