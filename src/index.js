@@ -13,12 +13,12 @@
 import { EventEmitter } from "node:events";
 import { randomBytes, createHmac } from "node:crypto";
 import { resolve } from "node:path";
-import { WasmEngine } from "./wasm-engine.mjs";
-import { RelayRtcTransport } from "./relay-transport.mjs";
-import { SignalingBridge } from "./signaling.mjs";
-import { AudioFeeder } from "./audio-feeder.mjs";
-import { CallState } from "./types.mjs";
-export { CallState } from "./types.mjs";
+import { WasmEngine } from "./wasm-engine.js";
+import { RelayRtcTransport } from "./relay-transport.js";
+import { SignalingBridge } from "./signaling.js";
+import { AudioFeeder } from "./audio-feeder.js";
+import { CallState } from "./types.js";
+export { CallState } from "./types.js";
 const SHA256_LEN = 32;
 
 const toBareJid = (jid) => {
